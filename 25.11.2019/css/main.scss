@@ -1,0 +1,40 @@
+#cities {
+  padding: 10px;
+  width: 180px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  &:focus {
+    outline: none;
+  }
+}
+.bottomWrap{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 200px;
+}
+.wrapDiv{
+    position: absolute;
+    display: none;
+    width: 200px;
+    height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #eeeeee;
+    padding: 10px;
+    p{
+      padding: 10px;
+      &:hover{
+        background: #dddddd;
+      }
+    }
+}
+
+span {
+  color: rgb(59, 43, 148);
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}

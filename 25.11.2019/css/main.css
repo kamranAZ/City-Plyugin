@@ -1,0 +1,45 @@
+#cities {
+  padding: 10px;
+  width: 180px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+#cities:focus {
+  outline: none;
+}
+
+.bottomWrap {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 200px;
+}
+
+.wrapDiv {
+  position: absolute;
+  display: none;
+  width: 200px;
+  height: 400px;
+  overflow-y: scroll;
+  border: 1px solid #eeeeee;
+  padding: 10px;
+}
+
+.wrapDiv p {
+  padding: 10px;
+}
+
+.wrapDiv p:hover {
+  background: #dddddd;
+}
+
+span {
+  color: #3b2b94;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=main.css.map */

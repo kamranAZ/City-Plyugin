@@ -1,0 +1,19 @@
+#cities{
+    padding: 10px;
+    margin: 40px;
+}
+.bottomWrap{
+    position: relative;
+}
+.wrapperDiv{
+    position: absolute;
+    width: 200px;
+    border: 1px solid #eeeeee;
+    padding: 10px;
+    p{
+        padding: 10px;
+        &:hover{
+            background: #dddddd;
+        }
+    }
+}

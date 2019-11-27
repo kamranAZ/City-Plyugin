@@ -1,0 +1,1 @@
+$("#cities").searchDrop("Tokio","Moskva","Helsinki","Berlin","Sri Lanka","Rio","Boston","Nayrobi","istanbul",)
